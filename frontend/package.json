@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node generate-sitemap.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@unhead/vue": "^1.11.11",
+    "d3": "^7.9.0",
+    "d3-sankey": "^0.12.3",
+    "markdown-it": "^14.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "eslint": "^9.13.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "prettier": "^3.3.3",
+    "vite": "^6.1.0"
+  }
+}

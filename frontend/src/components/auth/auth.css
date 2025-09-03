@@ -1,0 +1,184 @@
+.session-form label {
+  display: block;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+.session-form input {
+  width: 100%;
+  min-width: 240px;
+  padding: 10px;
+  background-color: var(--gray-one);
+  border: 1.5px solid var(--gray-one);
+  border-radius: 8px;
+  box-sizing: border-box;
+  letter-spacing: 0.6px;
+}
+.session-cls {
+  font-size: 10px;
+  height: 15px;
+  text-align: left;
+}
+
+.session-cls-signup {
+  font-size: 10px;
+  height: 25px;
+  text-align: left;
+}
+.session-cls-tall {
+  font-size: 10px;
+  height: 35px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+.session-cls-mid {
+  font-size: 10px;
+  height: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+.session-p {
+  margin: 0;
+  font-size: 10px;
+  color: var(--gray-four);
+  text-align: left;
+}
+
+.session-submit {
+  width: 100%;
+  height: 42px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.two-buttons {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.no-mg {
+  margin: 0;
+}
+
+.session-form input:focus {
+  outline: none;
+  border: solid 1.5px black;
+}
+
+.session-container h1 {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: left;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.password-requirements {
+  display: flex;
+  align-items: flex-start;
+}
+.password-requirements p {
+  margin: 0;
+  font-size: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.red {
+  color: var(--red-one);
+  margin: 0;
+}
+.green {
+  color: var(--green-one);
+  margin: 0;
+}
+.password-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  margin: 0;
+  display: flex;
+}
+
+.toggle-password:focus {
+  outline: none;
+}
+.email-input {
+  margin-bottom: 20px;
+}
+
+.forgot-button {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  text-decoration: none;
+  color: var(--gray-four);
+  font-size: 12px;
+  height: 15px;
+  text-align: left;
+}
+
+.forgot-button:hover,
+.forgot-button:focus {
+  text-decoration: none;
+  color: black;
+  outline: none;
+}
+
+.submit-flex {
+  display: flex;
+  gap: 15px;
+  align-items: top;
+  margin-bottom: 10px;
+}
+.session-form input.code-input {
+  padding: 0px 10px;
+  margin: 0;
+  width: 75px;
+  min-width: 75px;
+}
+
+@media (max-width: 680px) {
+  .session-submit {
+    max-width: 240px;
+  }
+  .session-form input {
+    max-width: 240px;
+  }
+  .session-form p {
+    max-width: 240px;
+  }
+}

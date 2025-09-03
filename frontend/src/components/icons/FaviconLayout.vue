@@ -1,0 +1,55 @@
+<template>
+  <RouterLink to="/" class="brand" aria-label="Home">
+    <svg
+      height="40"
+      width="40"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <g transform="translate(25, 25) scale(0.9)">
+        <g>
+          <path
+            d="m365.5,191.5v-106.7c0-7.2-3.8-13.8-9.9-17.5l-89-53.4c-6.5-3.9-14.5-3.9-21,0l-89.1,53.4c-6.2,3.7-9.9,10.3-9.9,17.5v106.7c0,7.2 3.8,13.8 9.9,17.5l89.1,53.4c9.4,5.4 17.2,2.5 21,0l89-53.4c6.1-3.7 9.9-10.3 9.9-17.5z"
+            fill="none"
+            stroke="#000000"
+            stroke-width="30"
+            stroke-linejoin="round"
+          />
+          <path
+            d="m220,303l-89-53.4c-6.5-3.9-14.5-3.9-21,0l-89.1,53.4c-6.2,3.7-9.9,10.3-9.9,17.5v106.7c0,7.2 3.8,13.8 9.9,17.5l89.1,53.4c9.4,5.4 17.2,2.5 21,0l89-53.4c6.2-3.7 9.9-10.3 9.9-17.5v-106.7c0-7.2-3.7-13.8-9.9-17.5z"
+            fill="none"
+            stroke="#000000"
+            stroke-width="30"
+            stroke-linejoin="round"
+          />
+          <path
+            d="m491.1,302.9l-89-53.4c-6.5-3.9-14.5-3.9-21,0l-89.1,53.4c-6.2,3.7-9.9,10.3-9.9,17.5v106.7c0,7.2 3.8,13.8 9.9,17.5l89,53.4c9.4,5.4 17.2,2.5 21,0l89-53.4c6.2-3.7 9.9-10.3 9.9-17.5v-106.7c0.1-7.2-3.7-13.8-9.8-17.5z"
+            fill="none"
+            stroke="#000000"
+            stroke-width="30"
+            stroke-linejoin="round"
+          />
+        </g>
+      </g>
+    </svg>
+  </RouterLink>
+</template>
+
+<style scoped>
+svg {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.brand {
+  padding: 10px;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  background-color: var(--gray-two);
+  box-shadow: 0 0 5px var(--gray-two);
+  border-radius: 10px;
+}
+</style>
