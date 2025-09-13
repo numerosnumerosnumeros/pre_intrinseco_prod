@@ -1,7 +1,7 @@
 ## pre_intrinsic_prod
 
 The inspiration for the open-source app:
-[intrinsic](https://github.com/alwaysvitorious/intrinsic).
+[intrinsic](https://github.com/alwaysvitorious/intrinseco).
 
 A production-ready website that never made it to production (no time,
 questionable PMF).
