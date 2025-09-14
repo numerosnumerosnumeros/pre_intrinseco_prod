@@ -1,7 +1,7 @@
 ## pre_intrinsic_prod
 
 The inspiration for the open-source app:
-[Intrínseco](https://github.com/victorlopezarias/intrinseco).
+[Intrínseco](https://github.com/numerosnumerosnumeros/intrinseco).
 
 A production-ready website that never made it to production (no time,
 questionable PMF).
